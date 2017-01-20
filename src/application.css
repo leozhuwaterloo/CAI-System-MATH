@@ -1,0 +1,130 @@
+
+
+.button{
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 30pt;
+    -fx-font-family: "Gill Sans Ultra Bold";
+    -fx-text-fill: white;
+   
+}
+.button:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%,  #118C4E 0%,  #005A31 100%),
+        #118C4E,
+        #005A31,
+        radial-gradient(center 50% 50%, radius 100%, #C1E1A6, #118C4E);
+	-fx-cursor:hand;
+}
+.button:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+.label{
+    -fx-font-weight: bold;
+    -fx-font-size: 30pt;
+    -fx-font-family: "Gill Sans Ultra Bold";
+    -fx-text-fill: white;
+}
+
+.choice-box{
+    -fx-background-color: linear-gradient(from 0% 93% to 0% 100%, #d86e3a 0%, #c54e2c 100%);
+    -fx-mark-color: white;
+}
+
+.choice-box:hover{
+    -fx-cursor:hand;
+}
+
+
+.context-menu{
+	-fx-background-color: linear-gradient(from 0% 93% to 0% 100%, #d86e3a 0%, #c54e2c 100%);
+}
+
+.check-box{
+    -fx-mark-color: #d86e3a;
+    
+    -fx-font-weight: bold;
+    -fx-font-size: 25pt;
+    -fx-font-family: "Gill Sans Ultra Bold";
+    -fx-text-fill: white;
+    
+}
+
+.check-box:hover{
+    -fx-cursor:hand;
+}
+
+.chart-pie-label-line {
+    -fx-stroke: #c54e2c;
+    -fx-fill: #c54e2c;
+}
+
+.chart-pie-label {
+    -fx-fill: #c54e2c;
+    -fx-font-size: 12pt;
+    -fx-font-family: "Gill Sans Ultra Bold";
+}
+
+.chart-legend {
+   -fx-background-color:  #67BCDB;
+}
+
+#choice-box{
+    -fx-background-color: radial-gradient(center 50% 50%, radius 100%, #C1E1A6, #118C4E);
+    -fx-mark-color: white;
+}
+
+#context-menu{
+    -fx-background-color: linear-gradient(from 0% 93% to 0% 100%,  #118C4E 0%,  #005A31 100%);
+}
+
+#smaller-button{
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 14pt;
+    -fx-font-family: "Gill Sans Ultra Bold";
+    -fx-text-fill: white;
+}
+
+#smaller-button:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%,  #118C4E 0%,  #005A31 100%),
+        #118C4E,
+        #005A31,
+        radial-gradient(center 50% 50%, radius 100%, #C1E1A6, #118C4E);
+}
+#smaller-button:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+#larger-label{
+    -fx-font-weight: bold;
+    -fx-font-size: 69pt;
+    -fx-font-family: "Gill Sans Ultra Bold";
+}
+
+.outline.label .text {
+-fx-fill: radial-gradient(center 50% 50%, radius 100%, #ff8000, #ffbf00);
+-fx-stroke: white;
+-fx-stroke-width: 5px;
+}
+
